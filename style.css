@@ -1,4 +1,31 @@
+.welcome {
+    height: 410px;
+    background-image: linear-gradient(black,rgb(5, 14, 150),rgb(11, 11, 56),black);
+    padding-top: 150px;
+}
 h1 {
-    color: red;
+    color: white;
     text-align:center;
+    font-size: 150px;
+}
+body{
+    background-color: black;
+}
+
+.whiteborder {
+    border-bottom: solid white;
+    margin:-30px;
+}
+
+.navbar {
+    text-decoration:none;
+    font-size: 36px;
+    color: rgb(255, 255, 255);
+    border-left: 2px solid;
+    margin: 70px;
+    padding-left: 10px;
+    text-align: bottom;
+} a:hover {
+    color:blue;
+    font-size: 36px;
 }
